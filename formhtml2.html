@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste formulario</title>
+    <style>
+        h2 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+   <h2>Formulário</h2> 
+    <hr/>
+    <form action='' method='post'>
+        
+          <fieldset>
+            <legend><h4>cadastro de automoveis:</h4></legend>
+            <label>tipo de veiculo:</label>
+                <input type="radio" id="tipo de veiculo" name="usado" value="MASCULINO" />
+                <label for="novo">novo</label>
+              
+                <input type="radio" id="tipo de veiculo" name="usado" value="usado" />
+                <label for="usado">usado</label>
+            
+            <label>categoria</label>
+            <select Name="Name_of_list_box" Size="Number_of_options">  
+                <option> hatch </option>  
+                <option> suv </option>  
+                <option> sedã </option>  
+                <option> picape</option>  
+                <option> utilitario</option> 
+                <option> perua </option>  
+                <option> minivan</option>  
+                <option> conversivel </option>  
+                <option> outros</option>  
+              </select>  
+              <label>fabricante</label>
+              <select Name="Name_of_list_box" Size="Number_of_options">  
+                  <option> fiat </option>  
+                  <option> ford</option>  
+                  <option> chevrolet </option>  
+                  <option> volskwagen</option>  
+                  <option>  Citroën</option> 
+                  <option> Renault</option>  
+                  <option> Kia</option>    
+                  <option> outros</option>  
+                </select>  
+              <label>modelo:</label>
+              <input type="text" id="modelo" name="modelo"><br> 
+
+              <label>preço:</label>
+              <input type="number" id="preço" name="preço">
+              <label>placa:</label>
+              <input type="number" id="placa" name="placa">
+              <label>cambio:</label>
+                <input type="radio" id="cambio" name="usado" value="MASCULINO" />
+                <label for="automatico">automatico</label>
+              
+                <input type="radio" id="tipo de veiculo" name="usado" value="usado" />
+                <label for="manual">manual</label><br>
+                <label>blindagem:</label>
+                <input type="radio" id="blindagem" name="usado" value="MASCULINO" />
+                <label for="sim">sim</label>
+              
+                <input type="radio" id="blindagem" name="usado" value="usado" />
+                <label for="não">não</label> <br>
+                <label>numero de portas:</label>
+                <input type="number" id="numero de portas" name="numero de portas"><br> 
+            
+             <label>combustivel</label>
+             <select Name="Name_of_list_box" Size="Number_of_options">  
+                 <option> etanol </option>  
+                 <option> gasolina</option>  
+                 <option> diesel </option>  
+                 <option> flex</option>  
+                 <option> outros</option>  
+               </select>  <br>
+               <label>foto:</label>
+              <input type="file" id="foto" name="foto"><br>
+              <label for="descrição">descrição:</label>
+
+<textarea id="w3review" name="w3review" rows="4" cols="50">
+</textarea>
+<input type="submit" id="enviar" name="enviar">
+             <input type="reset" id="limpar" name="limpar">
+            </fieldset>
+         
+            <hr/>
+          
+    </form>
+
+    <script>       
+        var colorInput = document.getElementById('cor');
+        var body = document.body;
+        colorInput.addEventListener('input', function() {
+            body.style.backgroundColor = colorInput.value;
+        });
+    </script>
+</body>
+</html>
