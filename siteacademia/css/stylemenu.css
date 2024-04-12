@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(#00000001,#00000063),url(https://img.freepik.com/fotos-gratis/halteres-no-chao-de-uma-academia-ai-generative_123827-23743.jpg?w=740&t=st=1712791001~exp=1712791601~hmac=35a9dcc6eab4465d37e79647daea09fbd3616c323be47f8655b1fb2dec509acc);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+.container{
+    max-width: 1400px;
+    padding: 3%;
+    margin: 0 auto;
+
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+   background: linear-gradient(to bottom, black, transparent);
+    padding: 20px 0; 
+    position: fixed; 
+    width: 100%; 
+    z-index: 1000; 
+    top: 0; 
+}
+
+nav .logo{
+    font-size: 35px;
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: bold;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 19px;
+    color: white;
+    border-radius: 30px;
+    transition: 0.6s;
+}
+nav ul li a :hover { 
+    background-color:(#696969);
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white;
+    
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    .bebas-neue-regular {
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+}
+
+p {
+    font-size: 1.2rem;
+    text-align: center;
+}
+nav ul li a:hover { 
+    background-color: silver;
+}
+.container p {
+    background-color: rgba(0, 0, 0, 0.5); /* Cor de fundo com transparência */
+    padding: 20px; /* Adiciona espaço ao redor do texto */
+    border-radius: 10px; /* Arredonda as bordas */
+    margin-top: 20px; /* Espaço superior para separação */
+    border: 3px solid silver;
+}
+.container h1 {
+    background-color: rgba(0, 0, 0, 0.5); /* Cor de fundo com transparência */
+    padding: 20px; /* Adiciona espaço ao redor do texto */
+    border-radius: 10px; /* Arredonda as bordas */
+    margin-top: 20px; /* Espaço superior para separação */
+    border: 3px solid silver;
+}
