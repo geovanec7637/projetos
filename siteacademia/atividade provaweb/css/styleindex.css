@@ -1,0 +1,28 @@
+body {
+    background-color: #696969;
+    font-family: Arial, sans-serif; 
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    border-radius: 40px;
+    background-color: #dcdcdc; 
+}
+
+table img {
+    max-width: 300px;
+    height: 150px;
+    
+}
+h1{
+    color: black;
+}
+h2{
+    color: black;
+    margin: top;
+}
+p{
+    color: black;
+}
+
